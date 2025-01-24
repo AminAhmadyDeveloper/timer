@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
+import { For } from '@/components/utils/for';
 import { Show } from '@/components/utils/show';
-import { For } from '@/pages/main/components/for';
 import { useTimerLogsStore } from '@/store/use-timer-logs-store';
 
 export const Logs = () => {

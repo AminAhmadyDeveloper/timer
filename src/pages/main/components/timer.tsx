@@ -3,7 +3,7 @@ import { type FC } from 'react';
 import { Button } from '@/components/ui/button';
 import { Switcher } from '@/components/utils/switcher';
 import { useTimer } from '@/hooks/use-timer';
-import { useTimerInteractionController } from '@/hooks/use-timer-interaction-controller';
+import { useTimerInteractionController } from '@/pages/main/hooks/use-timer-interaction-controller';
 import { useTimerLogsStore } from '@/store/use-timer-logs-store';
 
 export const Timer: FC = () => {
